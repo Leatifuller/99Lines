@@ -1,0 +1,22 @@
+body {
+    background-color: brown;
+    text-align: center;
+}
+
+h1 {
+color: burlywood;
+text-align: center;
+}
+
+.friend {
+    background-color: darkblue;
+    text-align: center;
+    padding: 2em;
+    margin: 0 auto;
+
+}
+
+.friend h3 {
+    text-transform: uppercase;
+    padding: 1em;
+}
