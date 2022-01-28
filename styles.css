@@ -11,12 +11,9 @@ text-align: center;
 .friend {
     background-color: darkblue;
     text-align: center;
-    padding: 2em;
-    margin: 0 auto;
+
 
 }
-
-.friend h3 {
+ h3 {
     text-transform: uppercase;
-    padding: 1em;
 }
