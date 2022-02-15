@@ -1,8 +1,11 @@
-let friendsArr = ["Tia", "Larry", "Dea", "Love", "Destiny"];
-
-for (let i=0; i<friendsArr.length; i++) {
-    console.log(friendsArr[i].toUpperCase()+ ":");
-
+document.addEventListener("DOMContentLoaded", function(){
+    let button = document.getElementById("button");
+   
+    button.addEventListener("click", function(){
+    
+    
+    let friends = ["Tia", "Larry", "Dea", "Love", "Destiny"];
+   
     for (let j=99; j>0; j--) {
         if (j==2) {
         console.log(j + " lines of code in the file, " + j + " lines of code; " + friendsArr[i] + " strikes one out, clears it all out, 1 line of code in the file");
@@ -15,9 +18,4 @@ for (let i=0; i<friendsArr.length; i++) {
 
         }
 
-        }
-    }
-
-
-
-
+    }}
