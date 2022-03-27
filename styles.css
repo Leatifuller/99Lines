@@ -1,19 +1,26 @@
-body {
-    background-color: brown;
-    text-align: center;
-}
-
 h1 {
-color: burlywood;
+color: blue;
 text-align: center;
 }
-
+button{
+    background-color: blue;
+}
 .friend {
-    background-color: darkblue;
     text-align: center;
-
-
+    color: darkmagenta;
+    font-style:oblique;
 }
- h3 {
-    text-transform: uppercase;
-}
+body {
+    text-align: center;
+    background: linear-gradient(to right, #1e5799 0%, #2ce0bf 19%, #76dd2c 40%, #dba62b 60%, #e02cbf 83%, #1e5799 100%);
+    background-size: 10000px 100%;
+    animation: bg 15s linear infinite;
+  }
+  @keyframes bg {
+    0% {
+      background-position-x: 0;
+    }
+    100% {
+      background-position-x: 10000px;
+    }
+  }
